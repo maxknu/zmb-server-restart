@@ -13,7 +13,7 @@ def restart():
 
     print(query)
     if (query == "survive"):
-        url = "http://192.168.1.18:8126/container/ProjectZomboid/restart"
+        url = "http://192.168.1.98:8126/container/ProjectZomboid/restart"
         headers = { "Content-Type": "application/octet-stream; charset=utf-8" }
         response = requests.get(url, headers=headers)
         
